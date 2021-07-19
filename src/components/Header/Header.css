@@ -1,0 +1,121 @@
+.header__primary {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background-color: #131921;
+  top: 0;
+  z-index: 1000;
+}
+.header__logo {
+  /* border: 10px solid red; */
+  width: 100px;
+  margin: 18px 20px 0px 20px;
+  object-fit: contain;
+}
+.header__search {
+  border-radius: 24px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 0px 9px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  height: 22px !important;
+  background-color: #daa056;
+  padding: 5px;
+  cursor: pointer;
+}
+.header__searchIcon:hover {
+  background-color: #cd9142;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.header__optionLineOne {
+  font-size: 14px;
+}
+.header__optionLineTwo {
+  font-size: 16px;
+  font-weight: 800;
+}
+.header__optionCart {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header__CartIcon {
+  height: 24px;
+  color: white;
+}
+.header__CartCount {
+  margin: 0px 10px;
+}
+.header__CartCount {
+  text-decoration: none !important;
+  border-radius: 300px;
+  padding: 5px;
+  background-color: #cd9042;
+  margin: 4px;
+}
+.header__secondary {
+  display: flex;
+  height: 39px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #232f3e;
+  top: 0;
+  z-index: 1000;
+  color: white;
+}
+.header__secondaryLeftMain {
+  justify-content: space-between;
+  display: flex;
+  flex: 1;
+  font-weight: 300;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.header__secondaryLeft {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 4px;
+  border-radius: 3px;
+  width: max-content;
+}
+.header__secondaryLeft:hover {
+  border: 0.3px solid white;
+}
+.header__secondaryRight {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+  justify-content: flex-end;
+  font-weight: bolder;
+  margin: 20px;
+}
+.header__secondaryRight > a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  height: 10px;
+}
