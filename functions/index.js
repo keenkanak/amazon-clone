@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.status(200).send("Hey");
+  console.log("hey");
 });
 
 app.post("/payments/create", async (req, res) => {
@@ -26,7 +27,10 @@ app.post("/payments/create", async (req, res) => {
       country: "US",
     },
   });
-  const total = req.query.total;
+
+  const total = parseInt(req.query.total);
+  console.log(req.query);
+  console.log(req.query.total);
   console.log("[index.js] Payment request received for amount", total);
   const paymentIntent = await stripe.paymentIntents.create({
     description: "Software development services",
@@ -40,7 +44,7 @@ app.post("/payments/create", async (req, res) => {
         country: "US",
       },
     },
-    amount: 1099,
+    amount: total,
     currency: "usd",
     payment_method_types: ["card"],
   });

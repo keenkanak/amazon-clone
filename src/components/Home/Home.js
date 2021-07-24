@@ -32,7 +32,7 @@ const Home = () => {
           <Product
             key={Math.random()}
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            title="Fitpolo Fitness Smart Watch for Women Men, Fitness Tracker with Blood Oxygen Heart Rate Sleep Monitor, IP68 Waterproof Fitness Watch Step Calorie Pedometer"
             price={199.99}
             rating={3}
             image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"

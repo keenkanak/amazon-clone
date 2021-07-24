@@ -1,8 +1,8 @@
 module.exports = {
   root: false,
   env: {
-    es6: true,
-    node: true,
+    es6: false,
+    node: false,
   },
   rules: {
     quotes: ["off", "double"],

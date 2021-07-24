@@ -30,7 +30,7 @@ const Payment = () => {
       setClientSecret(response.data.clientSecret);
     };
     getClientSecret();
-  }, [basket]);
+  }, []);
 
   console.log("[Payment.js] The secret is ", clientSecret);
 
