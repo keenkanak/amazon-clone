@@ -4,7 +4,7 @@ A complete end to end clone of the E-Commerce platform Amazon. Has all the
 basic functionalities including user authentication, cart, checkout etc.
 
 Stack: 
-  Frontend: React, React Context API CSS(Front-End) 
+  Frontend: React, React Context API, HTML, CSS
   Backend: Node.js, Express, Stripe
 
 THE SIGN IN PAGE
