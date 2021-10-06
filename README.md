@@ -6,7 +6,6 @@ basic functionalities including user authentication, cart, checkout etc.
 Stack: 
 
   Frontend: React, React Context API, HTML, CSS
-  
   Backend: Node.js, Express, Stripe
 
 THE SIGN IN PAGE
